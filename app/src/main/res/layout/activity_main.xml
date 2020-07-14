@@ -6,12 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 <!--    #FF8B85-->
     <Button
+        android:background="@drawable/bg_button_shape"
         android:textAllCaps="false"
-        android:text="Today"
+        android:text="Shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/bg_button_state"
+        android:text="State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RatingBar
+        android:stepSize="0.1"
+        android:maxHeight="40dp"
+        android:minHeight="30dp"
+        android:progressDrawable="@drawable/bg_rating_full"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
